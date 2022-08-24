@@ -1,6 +1,6 @@
-Package: MicrobiomeAnalysis
+Package: Amplicon Data Analysis Pipeline
 Type: Book
-Title: "MicrobiomeAnalysis: A comprehensive R package for managing and analyzing microbiome data"
+Title: "Amplicon Data Analysis Pipeline including upstream and downstream data analysis"
 Version: 0.0.1
 Imports: bookdown
-Remotes: HuaZou/MicrobiomeAnalysis
+Remotes: HuaZou/Amplicon_Analysis_Pipeline

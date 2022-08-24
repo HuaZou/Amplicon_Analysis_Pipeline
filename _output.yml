@@ -3,10 +3,10 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">MicrobiomeAnalysis</a></li>
+        <li><a href="./">Amplicon Data Analysis Pipeline</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/HuaZou/MicrobiomeAnalysis_book/blob/main/%s
+    edit: https://github.com/HuaZou/Amplicon_Analysis_Pipeline/tree/gh-pages/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:

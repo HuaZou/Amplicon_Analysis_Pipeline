@@ -1,0 +1,11 @@
+# How to run Amplicon Data Analysis Pipeline
+
+## Set Up the Running Environment
+
+## Download pre-built references
+
+## Prepare input files
+
+## Running pipeline
+
+## Output

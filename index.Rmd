@@ -1,5 +1,5 @@
 --- 
-title: "MicrobiomeAnalysis"
+title: "Amplicon Data Analysis Pipeline"
 author: "Hua Zou"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -9,19 +9,22 @@ bibliography: [assets/book.bib, assets/packages.bib]
 biblio-style: apalike
 link-citations: yes
 always_allow_html: true
-description: "A comprehensive R package for managing and analyzing microbiome data"
+description: "A comprehensive workflow on amplicon data analysis"
 ---
 
-# Prerequisites
+# Introduction
 
+## FLowChart of Pipeline
 
-## Software
+## Input data types
 
-* R 4.1.2 or later release [Download link](https://mirrors.tuna.tsinghua.edu.cn/CRAN/).
+## Upstream data analysis modules
 
-* Rstudio Desktop [Download link](https://www.rstudio.com/products/rstudio/download/#download).
+## Downstream data analysis modules
 
-## Requirements
+## Methods and available tools
 
-The methods in **MicrobiomeAnalysis** requires that the users should have basic knowledge on R language and statistical background. **Statistical Analysis of Microbiome Data with R** [@xia2018statistical] might be a guide book for you.
+## Key publications
+
+## Outline of this Vignette
 

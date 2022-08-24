@@ -1,0 +1,14 @@
+# Quality evaluation
+
+## Loading R package
+
+## Importing data
+
+## Converting DADA2 files into phyloseq object
+
+## Reads' track of DADA2
+
+## Variability
+
+## Sequencing depth
+

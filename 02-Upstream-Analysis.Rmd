@@ -1,0 +1,11 @@
+# Upstream analysis of amplicon sequencing data
+
+## Downloading RSA from NCBI
+
+## Converting RSA into fastq
+
+## Quality control
+
+## Removing primer sequence
+
+## DADA2 pipeline

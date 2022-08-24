@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Amplicon Data Analysis Pipeline</title>
+  <title>Chapter 2 How to run Amplicon Data Analysis Pipeline | Amplicon Data Analysis Pipeline</title>
   <meta name="description" content="A comprehensive workflow on amplicon data analysis" />
   <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Amplicon Data Analysis Pipeline" />
+  <meta property="og:title" content="Chapter 2 How to run Amplicon Data Analysis Pipeline | Amplicon Data Analysis Pipeline" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="A comprehensive workflow on amplicon data analysis" />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Amplicon Data Analysis Pipeline" />
+  <meta name="twitter:title" content="Chapter 2 How to run Amplicon Data Analysis Pipeline | Amplicon Data Analysis Pipeline" />
   
   <meta name="twitter:description" content="A comprehensive workflow on amplicon data analysis" />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="how-to-run-amplicon-data-analysis-pipeline.html"/>
+<link rel="prev" href="index.html"/>
+<link rel="next" href="upstream-analysis-of-amplicon-sequencing-data.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -138,33 +138,22 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Amplicon Data Analysis Pipeline</h1>
-<p class="author"><em>Hua Zou</em></p>
-<p class="date"><em>2022-08-24</em></p>
+<div id="how-to-run-amplicon-data-analysis-pipeline" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">Chapter 2</span> How to run Amplicon Data Analysis Pipeline<a href="how-to-run-amplicon-data-analysis-pipeline.html#how-to-run-amplicon-data-analysis-pipeline" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="set-up-the-running-environment" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> Set Up the Running Environment<a href="how-to-run-amplicon-data-analysis-pipeline.html#set-up-the-running-environment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 </div>
-<div id="introduction" class="section level1 hasAnchor" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Introduction<a href="index.html#introduction" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="flowchart-of-pipeline" class="section level2 hasAnchor" number="1.1">
-<h2><span class="header-section-number">1.1</span> FLowChart of Pipeline<a href="index.html#flowchart-of-pipeline" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="download-pre-built-references" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> Download pre-built references<a href="how-to-run-amplicon-data-analysis-pipeline.html#download-pre-built-references" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 </div>
-<div id="input-data-types" class="section level2 hasAnchor" number="1.2">
-<h2><span class="header-section-number">1.2</span> Input data types<a href="index.html#input-data-types" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="prepare-input-files" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> Prepare input files<a href="how-to-run-amplicon-data-analysis-pipeline.html#prepare-input-files" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 </div>
-<div id="upstream-data-analysis-modules" class="section level2 hasAnchor" number="1.3">
-<h2><span class="header-section-number">1.3</span> Upstream data analysis modules<a href="index.html#upstream-data-analysis-modules" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="running-pipeline" class="section level2 hasAnchor" number="2.4">
+<h2><span class="header-section-number">2.4</span> Running pipeline<a href="how-to-run-amplicon-data-analysis-pipeline.html#running-pipeline" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 </div>
-<div id="downstream-data-analysis-modules" class="section level2 hasAnchor" number="1.4">
-<h2><span class="header-section-number">1.4</span> Downstream data analysis modules<a href="index.html#downstream-data-analysis-modules" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-</div>
-<div id="methods-and-available-tools" class="section level2 hasAnchor" number="1.5">
-<h2><span class="header-section-number">1.5</span> Methods and available tools<a href="index.html#methods-and-available-tools" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-</div>
-<div id="key-publications" class="section level2 hasAnchor" number="1.6">
-<h2><span class="header-section-number">1.6</span> Key publications<a href="index.html#key-publications" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-</div>
-<div id="outline-of-this-vignette" class="section level2 hasAnchor" number="1.7">
-<h2><span class="header-section-number">1.7</span> Outline of this Vignette<a href="index.html#outline-of-this-vignette" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="output" class="section level2 hasAnchor" number="2.5">
+<h2><span class="header-section-number">2.5</span> Output<a href="how-to-run-amplicon-data-analysis-pipeline.html#output" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 
 </div>
 </div>
@@ -173,8 +162,8 @@
           </div>
         </div>
       </div>
-
-<a href="how-to-run-amplicon-data-analysis-pipeline.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="upstream-analysis-of-amplicon-sequencing-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -205,7 +194,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/HuaZou/Amplicon_Analysis_Pipeline/tree/gh-pages/index.Rmd",
+"link": "https://github.com/HuaZou/Amplicon_Analysis_Pipeline/tree/gh-pages/01-How2Run.Rmd",
 "text": "Edit"
 },
 "history": {
