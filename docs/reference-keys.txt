@@ -1,0 +1,15 @@
+prerequisites
+software
+requirements
+preface
+introduction
+convert-inputs-into-phyloseq-class-object
+loading-packages
+inputs-from-dada2
+inputs-from-qiime2
+multivariate-community-analysis
+multivariate-homogeneity-of-groups-dispersions-variances
+permutational-multivariate-analysis-of-variance-permanova
+mantel-test-mantel
+analysis-of-similarity-anosim
+multi-response-permutation-procedures-mrpp

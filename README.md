@@ -1,2 +1,7 @@
-# Amplicon_Analysis_Pipeline
-Amplicon data analysis pipeline
+# MicrobiomeAnalysis
+
+
+ A comprehensive R package for managing and analyzing microbiome data
+
+
+
